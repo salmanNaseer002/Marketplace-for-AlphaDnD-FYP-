@@ -1,0 +1,16 @@
+.jumbotron p {
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+}
+
+.jumbotron h1 {
+	letter-spacing: 00.1rem;
+	font-weight: 800;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.Card-length {
+	width: 600px;
+	height: 400px;
+}

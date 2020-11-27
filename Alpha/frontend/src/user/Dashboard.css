@@ -1,0 +1,96 @@
+.User-header {
+	background-color: #343a40;
+	color: white;
+	font-weight: 600;
+	transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.User-header:hover {
+	background-color: yellowgreen;
+	color: white;
+	cursor: pointer;
+	transform: translateY(-2px);
+}
+
+.User-link {
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+.User-link:hover {
+	transform: translateY(-3px);
+}
+.card {
+	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Profile-header {
+	padding-bottom: 10px;
+	font-weight: 700;
+	color: #343a40;
+	cursor: pointer;
+}
+
+.Profile-header:hover {
+	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Profile-input:focus {
+	background-color: #d6e7f5;
+	box-shadow: none;
+}
+
+.Profile-input {
+	border: none;
+	background-color: #d6e7f5;
+	border-bottom: 3px solid #343a40;
+	height: 40px;
+}
+
+.Profile-input:hover {
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+.Profile-btn {
+	background-color: #343a40;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.Profile-btn:hover {
+	transform: translateY(-2px);
+}
+.Link-background {
+	background-color: #f5f9fc;
+}
+
+.Form-input {
+	border: none;
+	padding: 10px;
+	background-color: #343a40;
+	border-bottom: 2px solid grey;
+	box-shadow: none;
+}
+
+.Form-input:focus {
+	background-color: #e9ecef;
+}
+
+.Form-btn {
+	border: none;
+	color: #e9ecef;
+	background-color: #343a40;
+	font-weight: 600;
+	border-bottom: 2px solid grey;
+	padding: 10px;
+	font-size: 1.2rem;
+}
+
+.Form-btn:hover {
+	border: none;
+	color: #343a40;
+	background-color: #e9ecef;
+}

@@ -1,0 +1,38 @@
+.Searchbar-border {
+	background-color: white;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 2px solid yellowGreen;
+
+	transition: 0.2s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.Searchbar-border:hover {
+	transform: translateY(-0.5px);
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+}
+.Search-option {
+	border: none;
+}
+
+.Search-option:focus {
+	box-shadow: none;
+}
+.Search-all:focus {
+	box-shadow: none;
+}
+
+.Search-button {
+	background-color: white;
+	border: 1px solid white;
+	font-size: 25px;
+	cursor: pointer;
+}
+.Search-button:hover {
+	font-size: 30px;
+	color: tomato;
+}
+.Search-button:focus {
+	color: yellowgreen;
+}

@@ -1,0 +1,42 @@
+.Card-viewButton {
+	color: #5A6268;
+	background-color: white;
+	transition: 0.9s cubic-bezier(0.2, 1, 0.2, 1);
+	border-radius: 2px;
+	border: 1px solid #CCCCCC;
+}
+
+.Card-viewButton:hover {
+	background-color:  #0069D9 ;
+	border: 0.1px solid  #5A6268;
+	transform: translateY(-0.8px);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+	border-radius: 2px;
+	color: white;
+}
+
+.Card-addCart {
+	background-color: white;
+	color: yellowgreen;
+	transition: 0.9s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.Card-addCart:hover {
+	background-color: yellowgreen;
+	color: white;
+	transform: translateY(-2px);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+
+}
+
+.Buttons {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
+.Card-header {
+	font-weight: 700;
+}
